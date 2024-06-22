@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.ff_montserrat {
+    font-family: "Montserrat", sans-serif;
+}
+
+.ff_opensans {
+    font-family: "Open Sans", sans-serif;
+}
+
+/* ---------  root ------------- */
+
+/* font-size */
+.text_7xl {
+    font-size: 72px;
+}
+
+.text_lg {
+    font-size: 20px;
+}
+
+/* font-weight */
+.fw_extrabold {
+    font-weight: 800;
+}
+
+.fw_regular {
+    font-weight: 400;
+}
+
+.fw_semibold {
+    font-weight: 600;
+}
+
+/* line height */
+.lh_150 {
+    line-height: 150%;
+}
+
+/* colors */
+.text_white {
+    color: #ffffff;
+}
+
+.opacity_70 {
+    opacity: 70% !important;
+}
+
+.text_blue {
+    color: #0F63DD;
+}
+
+
+/* -------------------  common classes  --------------  */
+.d_flex {
+    display: flex;
+}
+
+.flex_column {
+    flex-direction: column;
+}
+
+.justify_content_center {
+    justify-content: center;
+}
+
+.align_items_center {
+    align-items: center;
+}
+
+.text_center {
+    text-align: center;
+}
+
+.sm_w_544 {
+    max-width: 544px;
+}
+
+.gap_4 {
+    gap: 16px !important;
+}
+
+.position_relative {
+    position: relative;
+}
+
+/*  ---------margin class------------- */
+.lg_mb_2 {
+    margin-bottom: 8px;
+}
+
+.lg_mb_4 {
+    margin-bottom: 16px;
+}
+
+.lg_mb_10 {
+    margin-bottom: 40px;
+}
+
+.mb_4 {
+    margin-bottom: 16px;
+}
+
+/* ----------------section class ------------ */
+.section-bg {
+    background: #8058B3;
+    background-image: url(../images/webp/bgImg.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.candylogo_img {
+    width: 368px;
+    height: 261px;
+}
+
+.overflow_hidden {
+    overflow: hidden;
+}
+
+/* .text-animation {
+    background: url("../images/webp/text-animation-img.webp");
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    background-size: cover;
+    background-position: 200% 200%;
+    display: inline-block;
+    animation: swim-gradient 10s linear infinite;
+} */
+
+/* @keyframes swim-gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+
+    100% {
+        background-position: 50% 50%;
+    }
+} */
+
+.social_icon {
+    transition: all 200ms ease-in-out;
+}
+
+.social_icon:hover {
+
+    transform:scale(1.2);
+}
+
+.white_square_box {
+    position: absolute;
+    border-radius: 10px;
+    bottom: 38.97px;
+    right: 35.83px;
+    background: white;
+    padding: 10px;
+    height: 70px;
+    width: 70px;
+    box-shadow: 0px 4px 16.6px 0px #8058B3;
+}
+
+.bg-radio {
+    position: absolute;
+    left: -3%;
+    bottom: -4.5%;
+}
+
+.bg-band {
+    position: absolute;
+    right: -3%;
+    bottom: -4.5%;
+}
+
+/* media query */
+@media(max-width:1200px) {
+
+    /* ---------  root ------------- */
+    /* font-size */
+    .text_7xl {
+        font-size: 60px;
+    }
+
+    .logo-img {
+        width: 328px;
+        height: 221px;
+    }
+
+    .mb_5 {
+        margin-bottom: 20px;
+    }
+
+    .px-4 {
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+}
+
+@media(max-width:991.9px) {
+
+    /* ---------  root ------------- */
+    /* font-size */
+    .text_7xl {
+        font-size: 50px;
+    }
+
+    .candyLogo_img {
+        width: 320px;
+        height: 219px;
+    }
+
+    .mb-0 {
+        margin-bottom: 0;
+    }
+
+    .mb-4 {
+        margin-bottom: 16px;
+    }
+
+    .mb_2 {
+        margin-bottom: 8px;
+    }
+
+    .bg-radio {
+        width: 148px;
+        height: 200px;
+    }
+
+    .bg-band {
+        right: -8%;
+    }
+
+}
+
+@media(max-width:576px) {
+
+    /* ---------  root ------------- */
+    /* font-size */
+    .text-7xl {
+        font-size: 45px;
+    }
+
+    .candyLogo_img {
+        width: 220px;
+        height: 158px;
+    }
+
+    .lh_100 {
+        line-height: 100%;
+    }
+
+    .text_lg {
+        font-size: 18px;
+    }
+
+    .mb-0 {
+        margin-bottom: 0;
+    }
+
+    .mb_4 {
+        margin-bottom: 16px;
+    }
+
+    .mb_2 {
+        margin-bottom: 8px;
+    }
+
+    .w_full {
+        max-width: 100%;
+    }
+
+    .white_square_box {
+        border-radius: 6px;
+        bottom: 28px;
+        right: 25px;
+        padding: 12px;
+        height: 50px;
+        width: 50px;
+
+    }
+
+    .bg-band {
+        width: 200px;
+        right: -2%;
+        bottom: -1%;
+    }
+
+}
