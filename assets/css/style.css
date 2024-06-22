@@ -121,8 +121,11 @@
     height: 261px;
 }
 
-.overflow_hidden {
+.header_classes {
     overflow: hidden;
+    max-width: 1920px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .herotext_animation {
