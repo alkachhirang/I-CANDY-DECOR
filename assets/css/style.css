@@ -6,6 +6,7 @@
     box-sizing: border-box;
 }
 
+/*-------------------font-family----------------*/
 .ff_montserrat {
     font-family: "Montserrat", sans-serif;
 }
@@ -14,7 +15,7 @@
     font-family: "Open Sans", sans-serif;
 }
 
-/* ---------  root ------------- */
+/* ---------root -------------*/
 
 /* font-size */
 .text_7xl {
@@ -23,6 +24,11 @@
 
 .text_lg {
     font-size: 20px;
+}
+
+/* line height */
+.lh_150 {
+    line-height: 150%;
 }
 
 /* font-weight */
@@ -38,24 +44,14 @@
     font-weight: 600;
 }
 
-/* line height */
-.lh_150 {
-    line-height: 150%;
-}
-
 /* colors */
 .text_white {
     color: #ffffff;
 }
 
-.opacity_70 {
-    opacity: 70% !important;
-}
-
 .text_blue {
     color: #0F63DD;
 }
-
 
 /* -------------------  common classes  --------------  */
 .d_flex {
@@ -78,6 +74,10 @@
     text-align: center;
 }
 
+.opacity_70 {
+    opacity: 70% !important;
+}
+
 .sm_w_544 {
     max-width: 544px;
 }
@@ -90,7 +90,6 @@
     position: relative;
 }
 
-/*  ---------margin class------------- */
 .lg_mb_2 {
     margin-bottom: 8px;
 }
@@ -107,7 +106,7 @@
     margin-bottom: 16px;
 }
 
-/* ----------------section class ------------ */
+/* ----------------header-section ------------ */
 .headerBg_img {
     background: #8058B3;
     background-image: url(../images/webp/bgImg.png);
@@ -154,7 +153,7 @@
 
 .social_icon:hover {
 
-    transform:scale(1.2);
+    transform: scale(1.2);
 }
 
 .white_square_box {
@@ -169,23 +168,10 @@
     box-shadow: 0px 4px 16.6px 0px #8058B3;
 }
 
-.bg-radio {
-    position: absolute;
-    left: -3%;
-    bottom: -4.5%;
-}
-
-.bg-band {
-    position: absolute;
-    right: -3%;
-    bottom: -4.5%;
-}
-
 /* media query */
 @media(max-width:1200px) {
 
     /* ---------  root ------------- */
-    /* font-size */
     .text_7xl {
         font-size: 60px;
     }
@@ -208,7 +194,6 @@
 @media(max-width:991.9px) {
 
     /* ---------  root ------------- */
-    /* font-size */
     .text_7xl {
         font-size: 50px;
     }
@@ -244,7 +229,6 @@
 @media(max-width:576px) {
 
     /* ---------  root ------------- */
-    /* font-size */
     .text-7xl {
         font-size: 45px;
     }
@@ -286,12 +270,6 @@
         height: 50px;
         width: 50px;
 
-    }
-
-    .bg-band {
-        width: 200px;
-        right: -2%;
-        bottom: -1%;
     }
 
 }
