@@ -188,9 +188,9 @@
         margin-bottom: 20px;
     }
 
-    .px_3 {
-        padding-left: 12px;
-        padding-right: 12px;
+    .px_4 {
+        padding-left: 16px;
+        padding-right: 16px;
     }
 }
 
@@ -255,7 +255,7 @@
     }
 
     .text_lg {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .mb-0 {
@@ -276,11 +276,11 @@
 
     .white_square_box {
         border-radius: 6px;
-        bottom: 28px;
-        right: 25px;
+        bottom: 26px;
+        right: 26px;
         padding: 12px;
-        height: 50px;
-        width: 50px;
+        height: 45px;
+        width: 45px;
     }
 
 }
